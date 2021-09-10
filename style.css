@@ -89,7 +89,7 @@
 .ex-9-img:hover {
   filter: blur(5px) sepia(100%);
   border-radius: 15px;
-  transform: scale(0.5);
+  transform: scale(2.5);
 }
 
 .ex-10-icon {
@@ -112,7 +112,7 @@
 
 .ex-11-icon:hover {
   animation-name: partial-spin;
-  animation-duration: 1s;
+  animation-duration: s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -121,7 +121,7 @@
   0% {
     transform: rotateZ(0deg);
   }
-  85% {
+  95% {
     transform: rotateZ(270deg);
   }
   100% {
